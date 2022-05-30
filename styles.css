@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@font-face {
+    font-family: futura;
+    src: url('Futura\ Extra\ Bold.otf');
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url("cmiygl.png")
+}
+
+.main{
+    background: #E1D6AD;
+    width: 400px;
+    height: 175px;
+    margin: 100px auto;
+    position: relative;
+    padding: 30px;
+    border-radius: 25px;
+}
+
+.badge{
+    width: 151px;
+    background: #45291B;
+    color: white;
+    padding: 5px 10px;
+    font-family: futura;
+    font-weight: bold;
+    position: absolute;
+    top: -15px;
+    left: 40%;
+}
+
+.clock{
+    background: #D3DEE2;
+    text-align: center;
+    font-size: 55px;
+    height: 100%;
+    padding-top: 25px;
+    font-family: Orbitron;
+    border-radius: 4px;
+}
